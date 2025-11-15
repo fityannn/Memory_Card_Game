@@ -1,12 +1,12 @@
 const cards = [
-    '🍕','🍕',
-    '🍔','🍔',
-    '🍟','🍟',
-    '🌭','🌭',
-    '🍿','🍿',
-    '🥚','🥚',
-    '🥐','🥐',
-    '🥨','🥨'
+    '😋','😋',
+    '🤗','🤗',
+    '🥰','🥰',
+    '🥹','🥹',
+    '🐭','🐭',
+    '😭','😭',
+    '🤏🏻','🤏🏻',
+    '🤭','🤭'
 ];
 
 let firstCard = null;
@@ -82,5 +82,6 @@ document.getElementById('reset-button').addEventListener('click', () => {
     document.querySelector('.game-board').innerHTML = ''; 
     createBoard();
 });
+
 
 createBoard();
